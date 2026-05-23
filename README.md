@@ -149,5 +149,6 @@ norika (Chen Ho Yiing), Taiwan independent researcher.
 - ORCID: [0009-0006-6816-9891](https://orcid.org/0009-0006-6816-9891)
 - Google Scholar: [wrTR3VMAAAAJ](https://scholar.google.com/citations?user=wrTR3VMAAAAJ)
 - GitHub: [@norika1207-lab](https://github.com/norika1207-lab)
+- Discussion: [LessWrong thread on Tier-A vs Tier-B methodology](https://www.lesswrong.com/posts/sHN889oCD3jXjWkMy?commentId=Lo6yLLZambmnnsgb7)
 
 Built solo, no institutional affiliation, no grant, no GPU. Just curiosity and stubborn nights.
