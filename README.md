@@ -1,4 +1,4 @@
-# Mercury MCP — Cross-Architecture LLM Internal Observation, as Agent Tools
+# Mercury MCP: Cross-Architecture LLM Internal Observation, as Agent Tools
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20352085.svg)](https://doi.org/10.5281/zenodo.20352085)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -111,7 +111,7 @@ Full data + analysis: see [`anchor-survival-MASTER.txt`](./data/anchor-survival-
 
 | Tool | Purpose |
 |---|---|
-| `mercury_list_models` | List all 18 observed models |
+| `mercury_list_models` | List all 23 observed models |
 | `mercury_anchor_dims(model, top_k=50)` | This model's hot dims + qwen-anchor overlap analysis |
 | `mercury_universal_anchors(min_models=3)` | Cross-model universal anchor presence ranking |
 | `mercury_layer_fingerprint(model, layer)` | Per-layer functional fingerprint (Tier-B only) |
