@@ -1,0 +1,33 @@
+{
+  "title": "Mercury: Cross-Architecture Hot-Dim Geometry Database for 23 LLMs",
+  "description": "Mercury MCP exposes a 23-LLM cross-architecture observation database (13 architecture families) to any agent that speaks the Model Context Protocol. Built entirely on consumer hardware (Mac mini + NVIDIA DGX Spark) at near-zero compute cost. Provides per-model anchor dimension data, per-layer functional fingerprints, and cross-architecture layer alignment matrices. Key finding: dimension 11 appears in top-50 hot dims of 11/18 models including AllenAI's fully-independent OLMo2, providing the first large-scale empirical evidence for the anchor universality hypothesis (Olah et al.). Strongest cross-architecture layer alignment: qwen-7B layer 15 ↔ falcon-7B layer 16 at similarity 0.868.",
+  "creators": [
+    {
+      "name": "Chen, Ho Yiing (norika)",
+      "affiliation": "Independent Researcher, Taiwan",
+      "orcid": "0009-0006-6816-9891"
+    }
+  ],
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "mechanistic interpretability",
+    "large language models",
+    "cross-architecture analysis",
+    "anchor dimensions",
+    "model context protocol",
+    "composable LLM",
+    "frankenstein merge",
+    "residual stream"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/norika1207-lab/mercury-mcp",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "communities": [],
+  "language": "eng"
+}

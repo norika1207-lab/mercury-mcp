@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+title: "Mercury: Cross-Architecture Hot-Dim Geometry Database for 23 LLMs"
+message: "If you use this dataset or MCP server, please cite both."
+type: software
+authors:
+  - given-names: "Ho Yiing"
+    family-names: "Chen"
+    name-particle: "norika"
+    email: "abbychen981008@gmail.com"
+    orcid: "https://orcid.org/0009-0006-6816-9891"
+    affiliation: "Independent Researcher, Taiwan"
+repository-code: "https://github.com/norika1207-lab/mercury-mcp"
+url: "https://github.com/norika1207-lab/mercury-mcp"
+abstract: >
+  Mercury MCP exposes a 23-LLM cross-architecture observation database to any
+  agent that speaks the Model Context Protocol. Built entirely on consumer
+  hardware (Mac mini + NVIDIA DGX Spark) at near-zero compute cost. Provides
+  per-model anchor dimension data, per-layer functional fingerprints, and
+  cross-architecture layer alignment matrices for 13 distinct LLM families.
+keywords:
+  - mechanistic-interpretability
+  - large-language-models
+  - cross-architecture
+  - anchor-dimensions
+  - model-context-protocol
+  - composable-llm
+  - frankenstein-merge
+license: MIT
+version: "0.1.0"
+date-released: "2026-05-23"
+preferred-citation:
+  type: dataset
+  title: "Mercury: Cross-Architecture Hot-Dim Geometry Database for 23 LLMs"
+  authors:
+    - given-names: "Ho Yiing"
+      family-names: "Chen"
+      name-particle: "norika"
+      orcid: "https://orcid.org/0009-0006-6816-9891"
+  year: 2026
+  url: "https://github.com/norika1207-lab/mercury-mcp"
