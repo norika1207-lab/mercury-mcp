@@ -1,5 +1,9 @@
 # Mercury MCP — Cross-Architecture LLM Internal Observation, as Agent Tools
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20352085.svg)](https://doi.org/10.5281/zenodo.20352085)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 > "Most AI coding agents don't know what's inside the model they're talking to. Mercury does."
 
 Mercury MCP exposes a **18-LLM cross-architecture observation database** to any agent that speaks the [Model Context Protocol](https://modelcontextprotocol.io/) — Claude Code, Cursor, Cline, Goose, etc.
@@ -125,7 +129,7 @@ Reproducibility: ~4 hours wall-clock per model on a Mac mini M4 Pro. No GPU requ
   author = {Chen, Ho Yiing (norika)},
   title  = {Mercury: Cross-Architecture Hot-Dim Geometry Database for 18 LLMs},
   year   = {2026},
-  doi    = {10.5281/zenodo.XXXXXXX},
+  doi    = {10.5281/zenodo.20352085},
   url    = {https://github.com/norika1207-lab/mercury-mcp}
 }
 ```
