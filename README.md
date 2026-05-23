@@ -37,7 +37,7 @@ Cross-architecture layer alignment matrix included. Strongest single match: **qw
 ## Install (3 lines)
 
 ```bash
-git clone https://github.com/norikaoda/mercury-mcp
+git clone https://github.com/norika1207-lab/mercury-mcp
 cd mercury-mcp
 pip install -e .
 ```
@@ -88,7 +88,7 @@ Tier-B = per-layer HF `output_hidden_states` observation (rich, 7 done, 5 in pro
 3. **Cross-architecture layer alignment exists.** qwen-7B L15 ≈ falcon-7B L16 (sim 0.868) by per-layer functional fingerprint. Middle layers (~50% depth) are most universally aligned across families.
 4. **Three families show alternative geometry.** mistral-7B, mistral-small, yi-1.5 all show 0/11 qwen-anchor presence — they occupy a different residual subspace. This opens the door to *non-interfering cross-architecture composition* (Frankenstein).
 
-Full data + analysis: see [`anchor-survival-MASTER.txt`](./data/anchor-survival-MASTER.txt) and the [`paper-handoffs/`](https://github.com/norikaoda/mercury-paper-handoff) repo.
+Full data + analysis: see [`anchor-survival-MASTER.txt`](./data/anchor-survival-MASTER.txt) and the [`paper-handoffs/`](https://github.com/norika1207-lab/mercury-paper-handoff) repo.
 
 ---
 
@@ -112,7 +112,7 @@ Full data + analysis: see [`anchor-survival-MASTER.txt`](./data/anchor-survival-
 - **Tier-A**: hooked into `llama_cpp.Llama.logits_processor` to capture output-layer hot dims per token
 - **Tier-B**: `transformers.AutoModelForCausalLM.from_pretrained` with `output_hidden_states=True`, per-layer residual stream activation magnitudes binned into 10 quantiles
 - **Cell grid scheme**: addressable `(layer, dim, quantile_idx)` mmap-able binary, ~24MB-840MB depending on model size
-- **Source code**: [paper-handoff `paper-G-composable-llm/tools/`](https://github.com/norikaoda/mercury-paper-handoff)
+- **Source code**: [paper-handoff `paper-G-composable-llm/tools/`](https://github.com/norika1207-lab/mercury-paper-handoff)
 
 Reproducibility: ~4 hours wall-clock per model on a Mac mini M4 Pro. No GPU required.
 
@@ -126,7 +126,7 @@ Reproducibility: ~4 hours wall-clock per model on a Mac mini M4 Pro. No GPU requ
   title  = {Mercury: Cross-Architecture Hot-Dim Geometry Database for 18 LLMs},
   year   = {2026},
   doi    = {10.5281/zenodo.XXXXXXX},
-  url    = {https://github.com/norikaoda/mercury-mcp}
+  url    = {https://github.com/norika1207-lab/mercury-mcp}
 }
 ```
 

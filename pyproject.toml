@@ -11,7 +11,7 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/norikaoda/mercury-mcp"
+Homepage = "https://github.com/norika1207-lab/mercury-mcp"
 "Paper Data" = "https://zenodo.org/communities/mercury-llm"
 
 [project.scripts]
