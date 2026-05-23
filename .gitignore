@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+# Don't commit symlinked data dir contents (they're managed elsewhere)
+data/*/
+!data/.gitkeep

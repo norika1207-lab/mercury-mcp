@@ -1,0 +1,13 @@
+// Add this to ~/.claude/mcp_settings.json under "mcpServers"
+// Adjust paths to match your install location
+{
+  "mcpServers": {
+    "mercury": {
+      "command": "/Users/YOUR_USERNAME/path/to/mercury-mcp/.venv/bin/python",
+      "args": ["-m", "mercury_mcp.server"],
+      "env": {
+        "MERCURY_DATA_DIR": "/Users/YOUR_USERNAME/path/to/mercury-mcp/data"
+      }
+    }
+  }
+}
