@@ -103,7 +103,7 @@ Tier-A all 23 done. Tier-B 12 of 23 done, rest in progress.
 
 4. Methodology caveat being worked through openly. Tier-A "dim 11 universal across families" (originally framed as residual stream feature) may be a vocab-token-id mod hidden_size collision artifact from shared tokenizer training. Tier-B on OLMo2 contradicts the Tier-A reading. Paper A is being re-framed with Tier-A as screening layer (candidate signals) and Tier-B as finding layer (validated residual stream observations). Discussion welcome.
 
-Full data + analysis: see [`anchor-survival-MASTER.txt`](./data/anchor-survival-MASTER.txt) and the [`paper-handoffs/`](https://github.com/norika1207-lab/mercury-paper-handoff) repo.
+Full data + analysis: see [`anchor-survival-MASTER.txt`](https://github.com/norika1207-lab/mercury-paper-handoff/blob/main/anchor-survival-MASTER.txt) and the [`mercury-paper-handoff`](https://github.com/norika1207-lab/mercury-paper-handoff) repo.
 
 ---
 
